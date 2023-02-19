@@ -1,0 +1,477 @@
+*
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+    text-decoration: none;
+}
+
+/* index.html */
+
+#index
+{
+    background-color: gray;
+}
+
+#Omotačina
+{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-auto-rows: auto;
+}
+
+#meni
+{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    font-size: 24pt;
+    background-color: gray;
+    border-bottom: 2px solid black;
+}
+
+#meni li
+{
+    display: inline-block;
+}
+
+#studenti
+{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    font-weight: bold;  
+    background-color: lightblue;
+    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+#StudentiKontejner
+{
+    margin: 20px;
+    display: grid;
+    grid-gap: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 33.3333333% 33.3333333% 33.3333333%;
+}
+
+.Grid
+{
+    display: grid;  
+    grid-template-columns: 50% 50%;
+    border: 1px solid black;
+}
+
+.OmotačPojedinačnih
+{
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    border: 1px solid black;
+}
+
+.OmotačPojedinačnih div
+{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#grupe
+{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    font-weight: bold;
+    background-color: lightpink;
+    border-left: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+#GrupeKontejner
+{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 33.3333333% 33.3333333% 33.3333333%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid black;
+}
+
+#GrupeKontejner div
+{
+    justify-content: center;
+    border: 1px solid black;
+}
+
+
+/* vjezbe.html */
+
+#vjezbe
+{
+    background-color: gray;
+}
+
+#Omotačac
+{
+    display: grid;
+    grid-template-columns: 35% 32.5% 32.5%;
+    grid-auto-rows: auto;
+    border-bottom: 2px solid black;
+}
+
+
+#meni
+{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+#odabirVjezbe
+{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    display: grid;
+    text-align: center;
+    justify-content: start;
+    align-content: start;
+    grid-template-columns: 100%;
+    background-color: lightblue;
+    border-right: 2px solid black;
+    font-weight: bold;
+}
+
+#Vježba1
+{
+    height: 50px;
+    background-color: lightgray;
+    margin-top: 10px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
+
+#Vježba1Zadaci
+{
+    background-color: teal;
+    width: 96%;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.Vježba1Zadatak
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    height: 40px;
+    background-color: rgb(175, 174, 174);
+    border: 2px solid black;
+}
+
+.OstaleVježbe
+{
+    height: 50px;
+    margin-bottom: 10px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.graf
+{  
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    background-color: lightpink;
+}
+
+
+/* mojRepozitorij.html */
+
+#mojRepozitorij
+{
+    background-color: gray;
+}
+
+#OvoJeOmotač
+{
+    display: grid;
+    grid-template-columns: 100%;
+
+}
+
+#RepozitorijBar
+{
+    text-align: center;
+    height: 50px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: maroon;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.OmotačForma
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#OmotačGlavni
+{
+    width: 21%;
+    border: 2px solid black;
+    margin: auto;
+    background-color: maroon;
+    font-weight: bold;
+}
+
+.red
+{
+    text-align: right;
+}
+
+.red label
+{
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.red input , .red select , .red textarea
+{
+    vertical-align: middle;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* zadaci.html */
+
+#zadaci
+{
+    background-color: gray;
+}
+
+#OvoJeOmotačac
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#ZadaciBar
+{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+    height: 50px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24pt;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: maroon;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+#ManjiOmotač1
+{   
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 5px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 10px;
+    width: 100%;
+}
+
+#ManjiOmotač2
+{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 5px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 10px;
+    width: 100%;
+}
+
+#OmotačBloka1
+{
+    background-color: maroon;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+#OmotačBloka2
+{
+    margin: auto;
+    margin-left: 0px;
+    background-color: maroon;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+#zalabel
+{
+    padding-right: 5px;
+    float: left;
+    text-align: right;
+    width: 50%;
+}
+
+#checkbox
+{
+    float: right;
+    width: 50%;
+    text-align: left;
+}
+
+.Dugme
+{
+    margin: 5px;
+    text-align: center;
+}
+
+
+/* Za mobilni prikaz */
+
+@media screen and (max-width: 600px)
+{
+    #Omotačina
+    {
+        grid-template-columns: 100%;
+    }
+
+    #meni
+    {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #studenti
+    {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        border-right: 0px;
+    }
+
+    #StudentiKontejner
+    {
+    grid-template-columns: 50% 50%;
+    }
+
+    #grupe
+    {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        border-left: 0px;
+    }
+
+    #Omotačac
+    {
+        grid-template-columns: 100%;
+    }
+    
+    #odabirVjezbe
+    {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        border-right: 0px;
+    }
+    
+    #OmotačGlavni
+    {
+        width: 80%;
+    }
+
+    #OvoJeOmotačac
+    {
+        grid-template-columns: 100%;
+    }
+
+    #ZadaciBar
+    {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #ManjiOmotač1
+    {
+        display: block;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        grid-column: 1/2;
+        grid-row: 2/3;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ManjiOmotač2
+    {
+        margin: auto;
+        display: block;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #OmotačBloka2
+    {
+        margin: auto;
+    }
+}

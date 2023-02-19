@@ -1,0 +1,30 @@
+Vezano za mobilni prikaz:
+
+U index.html sam izmijenio grid tako da se sve nalazi jedno ispod drugog. Prvo div meni, pa div studenti i onda div grupe. Tim postižem da je stranica preglednija na "uskim" rezolucijama. Također, grid koji prikazuje studente je "sužen" da sada pokazuje dva studenta u jednom redu umjesto tri, kako bi moglo sve stati na ekran.
+
+Slično tome, i na stranici vjezbe.html sve se nalazi jedno ispod drugog. div meni, pa ispod njega div odabirVjezbe, pa onda svaki clan klase .graf se nalazi jedan ispod drugog.
+
+U mojRepozitorij.html box sa formama je "proširen" na manjoj rezoluciji kako bi bio čitljiviji.
+
+U zadaci.html box sa formama je "proširen" na manjoj rezoluciji kako bi bio čitljiviji i također na manjoj rezoluciji boxovi sa formama se nalaze jedan ispod drugog umjesto jedan pored drugog kao na prvobitnoj stranici.
+
+
+Vezano za CSS grid:
+
+Prepravio sam css za stranicu index.html tako da se svuda koristi display: grid. U prvoj verziji sam koristio tabele. Cijela stranica se nalazi u velikom gridu gdje se nalaze div meni, div studenti i div grupe. Također u divu studenti se koristi grid za prikaz studenata, a i sami studenti su organizovani kao grid gdje su ime i prezime, index i ostali podaci elementi tog "manjeg" grida. Također i "tabela" unutar diva grupe je organizovana u grid.
+
+Prepravio sam i css za stranicu vjezbe.html tako da i ona sada koristi grid. div meni, div odabirVjezbe i svi članovi .graf klase su organizovani u grid. Također unutar sebe, div odabirVjezbe koristi grid za prikaz vježbi i grid se koristi za prikaz zadataka unutar vježbe 1.
+
+mojRepozitorij.html je prepravljen da koristi grid za prikaz cijele stranice.
+
+zadaci.html je prepravljen da koristi grid za prikaz cijele stranice.
+
+
+Vezano za slike:
+
+Jedina slika koja se koristi u spirali je graf.png na stranici vjezbe.html. Sada je prepravljeno tako da na "užim" rezolucijama se prikazuje grafmanji.png, to jeste manja i kompaktnija verzija slike graf.png kako bi bila bolje vidljiva na "užoj" stranici.
+
+
+Vezano za mane prethodnog izgleda stranice:
+
+Neke promjene sam već opisao u tekstu iznad. Izmijenio sam sve stranice tako da sada one koriste display: grid što ih čini lakšim za upravljanje. Također sam malo promijenio izgled stranice index.html tako sto sam popravio tabelu i graf i bolje centrirao njihove elemente. Također sam u divu odabirVjezbe na stranici vjezbe.html popravio izgled boxova i postavio ih u kompaktan grid koji se "širi" i "sužava" srazmjerno. Osim onog što sam već naveo iznad, izgled stranica mojRepozitorij.html i zadaci.html nisam mijenjao.

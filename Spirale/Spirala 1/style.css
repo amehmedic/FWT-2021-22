@@ -1,0 +1,316 @@
+*
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+    text-decoration: none;
+}
+
+#Omotač
+{
+    display: flex;
+    font-weight: bold;
+}
+
+#vjezbe
+{
+    background-color: gray;
+}
+
+#index
+{
+    background-color: gray;
+}
+
+#meni
+{
+    padding: 5px 0;
+    font-size: 24pt;
+    background-color: gray;
+    border-bottom: 2px solid black;
+}
+
+#meni ul
+{
+    padding-left: 20px;
+}
+
+#meni li
+{
+    display: inline-block;
+}
+
+#studenti
+{
+    float: left;
+    width: 60%;
+    background-color: lightblue;
+    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+#studenti li
+{
+    text-align: left;
+}
+
+#GridKontejner
+{
+    margin: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#GridKontejner div
+{
+    border: 1px solid black;
+}
+
+#grupe
+{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    float: right;
+    width: 40%;
+    background-color: lightpink;
+    border-left: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+#grupe table, #grupe th, #grupe td
+{
+    text-align: center;
+    align-self: center;
+    box-align: center;
+    border: 1px solid black;
+}
+
+#GrupeTabela
+{
+    margin: 20px;
+    width: 100%;
+}
+
+#odabirVjezbe
+{
+    float: left;
+    width: calc(100*(1%/3));
+    background-color: lightblue;
+    text-align: center;
+    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+#Vježba1
+{
+    height: 50px;
+    background-color: lightgray;
+    margin-top: 10px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
+
+#Vježba1Zadaci
+{
+    background-color: teal;
+    width: 96%;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#Vježba1Zadaci ul
+{
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+#Vježba1Zadaci li
+{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(175, 174, 174);
+    border: 2px solid black;
+}
+
+.OstaleVježbe
+{
+    height: 50px;
+    margin-bottom: 10px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+#GridGrafova
+{
+    display: grid;
+    float: right;
+    width: calc(100*(2%/3));
+    background-color: lightpink;
+    grid-template-columns: repeat(2, 1fr);
+    border-left: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+.graf
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#GridGrafova div:nth-child(1)
+{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#GridGrafova div:nth-child(2)
+{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#GridGrafova div:nth-child(3)
+{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#GridGrafova div:nth-child(4)
+{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+
+#RepozitorijBar
+{
+    text-align: center;
+    height: 50px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: maroon;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.OmotačForma
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#OmotačGlavni
+{
+    width: 21%;
+    border: 2px solid black;
+    margin: auto;
+    background-color: maroon;
+    font-weight: bold;
+}
+
+.red
+{
+    text-align: right;
+}
+
+.red label
+{
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.red input , .red select , .red textarea
+{
+    vertical-align: middle;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#zalabel
+{
+    padding-right: 5px;
+    float: left;
+    text-align: right;
+    width: 50%;
+}
+
+#checkbox
+{
+    float: right;
+    width: 50%;
+    text-align: left;
+}
+
+.Dugme
+{
+    margin: 5px;
+    text-align: center;
+}
+
+#VelikiOmotač
+{
+    text-align: center;
+}
+
+#ManjiOmotač1 , #ManjiOmotač2
+{
+    vertical-align: middle;
+    display: inline-block;
+    width: 21%;
+    border: 2px solid black;
+    margin: auto;
+    background-color: maroon;
+    font-weight: bold;
+}
+
+#ManjiOmotač1
+{
+    margin: 10px;
+}
+
+#ManjiOmotač2
+{
+    margin: 10px;
+}
+
+#mojRepozitorij
+{
+    background-color: gray;
+}
