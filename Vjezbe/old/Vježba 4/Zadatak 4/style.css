@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#GridOmotač
+{
+    display: grid;
+    grid-auto-columns: 20% 60% 20%;
+    grid-auto-rows: 100px 250px 250px 50px;
+    grid-gap: 10px;
+}
+#GridOmotač div
+{
+    border: 1px solid black;
+}
+
+#GridOmotač div:nth-child(1)
+{
+    grid-column: 1/4;
+    grid-row: 1;
+}
+
+#GridOmotač div:nth-child(2)
+{
+    grid-column: 1;
+    grid-row: 2/4;
+}
+
+#GridOmotač div:nth-child(4)
+{
+    grid-column: 3;
+    grid-row: 2/4;
+}
+
+#GridOmotač div:nth-child(6)
+{
+    grid-column: 1/4;
+    grid-row: 4;
+}
+
+#Header
+{
+    background-color: lightseagreen;
+}
+
+#LeftCol
+{
+    background-color: orange;
+}
+
+#midTop
+{
+    background-color: lightgray;
+}
+
+#midBottom
+{
+    background-color: pink;
+}
+
+#RightCol
+{
+    background-color: lightskyblue;
+}
+
+#Footer
+{
+    background-color: lightgreen;
+}

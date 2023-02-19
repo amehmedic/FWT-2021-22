@@ -1,0 +1,32 @@
+p:nth-of-type(even) {
+  color: green;
+}
+
+p:hover {
+    background-color: yellow;
+}
+
+p:nth-of-type(4n) {
+    text-decoration: underline;
+}
+
+img+p {
+    font-style: italic;
+}
+
+[type="text"] {
+    background-color: gray;
+}
+
+[type="password"] {
+    background-color: black;
+    color: white;
+}
+
+[type="password"] + br + [type="email"] {
+    color: blue;
+}
+
+
+
+
